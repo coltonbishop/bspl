@@ -60,6 +60,7 @@ import os.path
 from os import path
 import matplotlib.pyplot as plt
 import numpy as np
+import csv
 
 # Ensure pkl data file is in the same directory as the
 # script you are using to access it.
@@ -167,9 +168,10 @@ def stamp(tweet):
 	return "{}/{}".format(tweet["date"].month, tweet["date"].year)
 
 # Plots line graph
-def plot(y, g, b, r, o, t, p, v, title, y_label='Month'):
+def plot(y, g, b, r, o, t, p, v, title, filename, y_label='Month'):
 
 	x_label='Month'
+	plt.figure(figsize=(17,9))
 	plt.plot(y, g, color='g')
 	plt.plot(y, b, color='b')
 	plt.plot(y, r, color='r')
@@ -183,7 +185,8 @@ def plot(y, g, b, r, o, t, p, v, title, y_label='Month'):
 	ax = plt.gca()
 	n = 3  # Keeps every 7th label
 	[l.set_visible(False) for (i,l) in enumerate(ax.xaxis.get_ticklabels()) if i % n != 0]
-	plt.show()
+	# plt.show()
+	plt.savefig('results/{}.png'.format(filename))
 
 
 # Analysis A:
@@ -241,7 +244,8 @@ def color_analysis(firm_name):
 	 	p[index] += counts[5]
 	 	v[index] += counts[6]
 
-	plot(y, g, b, r, o, t, p, v, title, y_label='Count of Tweets that Fall into Each Color Category')
+	filename = "{}_color".format(firm_name)
+	plot(y, g, b, r, o, t, p, v, title, filename=filename, y_label='Count of Tweets that Fall into Each Color Category')
 
 
 # Plots change in word usage over time for a firm, measuring by engagement score (favorite + retweet counts) for each word group
@@ -262,7 +266,8 @@ def color_engagement_analysis(firm_name):
 		 	p[index] += counts[5]
 		 	v[index] += counts[6]
 
-	plot(y, g, b, r, o, t, p, v, title, y_label='Engagement Score (Favorite + Retweet Count) for Each Color Category')
+	filename = "{}_color_engagement".format(firm_name)
+	plot(y, g, b, r, o, t, p, v, title, filename=filename, y_label='Engagement Score (Favorite + Retweet Count) for Each Color Category')
 
 
 # Returns the percentage full Tweet count of all colors for a firm
@@ -282,13 +287,15 @@ def percent_count(tweets):
 	return g/total, b/total, r/total, o/total, t/total, p/total, v/total
 
 
-def plot_bar(title, y, x, y_label):
+def plot_bar(title, y, x, y_label, filename):
 	y_pos = np.arange(len(y))
+	plt.figure(figsize=(17,9))
 	plt.bar(y_pos, x, align='center', alpha=0.5)
 	plt.xticks(y_pos, y)
 	plt.ylabel(y_label)
 	plt.title(title)
-	plt.show()
+	plt.savefig('results/{}.png'.format(filename))
+	# plt.show()
 
 # Creates one plot per word group comparing the % of Tweets per firm that fall into word group
 def color_bars():
@@ -313,13 +320,13 @@ def color_bars():
 	y_label = "Percentage of Tweets"
 	x_names = ["BlackRock", "JPMorgan", "WellsFargo", "CitiBank", "Bank of America", "GoldmanSachs", "MorganStanley"]
 
-	plot_bar(title.format("Green"), x_names, y_green, y_label)
-	plot_bar(title.format("Blue"), x_names, y_blue, y_label)
-	plot_bar(title.format("Red"), x_names, y_red, y_label)
-	plot_bar(title.format("Orange"), x_names, y_orange, y_label)
-	plot_bar(title.format("Teal"), x_names, y_teal, y_label)
-	plot_bar(title.format("Pink"), x_names, y_pink, y_label)
-	plot_bar(title.format("Violet"), x_names, y_violet, y_label)
+	plot_bar(title.format("Green"), x_names, y_green, y_label, filename="green")
+	plot_bar(title.format("Blue"), x_names, y_blue, y_label, filename="blue")
+	plot_bar(title.format("Red"), x_names, y_red, y_label, filename="red")
+	plot_bar(title.format("Orange"), x_names, y_orange, y_label, filename="orange")
+	plot_bar(title.format("Teal"), x_names, y_teal, y_label, filename="teal")
+	plot_bar(title.format("Pink"), x_names, y_pink, y_label, filename="pink")
+	plot_bar(title.format("Violet"), x_names, y_violet, y_label, filename="violet")
 
 # Returns [(Month, Year, Text)] for all tweets that contain word
 def print_firm_by_word(tweets, word):
@@ -381,6 +388,13 @@ def run_all_engagement_analyses():
 def get_tweets(name_of_firm):
 	return name_to_tweets[name_of_firm]
 
+# Get tweets of a firm by name
+def get_all_tweets():
+	total = []
+	for firm in tweets:
+		total.extend(tweets[firm])
+	return total
+
 def filter_by_word(firm_tweets, word):
 	filtered = []
 	for tweet in firm_tweets:
@@ -403,14 +417,13 @@ def filter_by_color(firm_tweets, color_name):
 # Creates CSV given Tweet dictionary and name
 def create_csv(tweets, name):
 
-	csv_ext = "results/csv/"
+	csv_ext = "csv/"
 
 	with open('{}.csv'.format(csv_ext + name), 'w', newline='') as csvfile:
 		fieldnames = ['tweet_id', 'date', 'user', 'favorite_count', 'retweet_count', 'text']
 		writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=",")
 		writer.writeheader()
 		for tweet in tweets:
-			tweet = tags[id]
 			text = tweet['text'].replace("\n", ":").replace(",", " ")
 			# print(text)
 			# input("Continue?")

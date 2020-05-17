@@ -51,18 +51,38 @@
 # color_bars()
 # -> Creates one plot per color group comparing the % of Tweets per firm that fall into color group
 #
-# 
+# create_csv(tweets, name)
+# -> convert tweets to a CSV file and save it in csv/
+#
 ################################################################################################
 
-from lex import run_all_color_analyses, run_all_engagement_analyses, color_bars, get_tweets, filter_by_word, filter_by_color, color_analysis, color_engagement_analysis, print_all_by_color
+from lex import run_all_color_analyses, run_all_engagement_analyses, color_bars, get_tweets, filter_by_word, filter_by_color, color_analysis, color_engagement_analysis, print_all_by_color, get_all_tweets, create_csv
 
 # Run Key Analyses
 
-run_all_color_analyses()
 
-run_all_engagement_analyses()
+tweets = get_all_tweets()
+green_filtered = filter_by_color(tweets, "green") 
+green_pink = filter_by_color(tweets, "pink") 
 
-color_bars()
+
+# green = filter_by_color(citi, "green")
+
+# print(len(green))
+
+# score = 0
+# for tweet in green:
+# 	score += tweet["favorite_count"]
+# 	score += tweet["retweet_count"]
+
+# print(score)
+
+
+# run_all_color_analyses()
+
+# run_all_engagement_analyses()
+
+# color_bars()
 
 
 
