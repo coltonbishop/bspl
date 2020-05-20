@@ -1,0 +1,70 @@
+prosocial preference correlation environment
+{'_filled': False,
+ 'bib': {'abstract': '… provides a unique opportunity to examine the impact of '
+                     'conditional cooperation on environmental\n'
+                     'morale and preferences … 7 Torgler et al.: Environmental '
+                     'and Pro-Social Norms … We, therefore, use\n'
+                     'the WVS to explore the correlation between '
+                     'justifiability of littering and the ESI … \n',
+         'author': 'B Torgler and BS Frey and C Wilson',
+         'eprint': 'https://doc.rero.ch/record/302775/files/bejeap.2009.9.1.1929.pdf',
+         'title': 'Environmental and pro-social norms: evidence on littering',
+         'url': 'https://www.degruyter.com/view/journals/bejeap/9/1/article-bejeap.2009.9.1.1929.xml.xml'},
+ 'citedby': 38,
+ 'id_scholarcitedby': '14285020433489557872',
+ 'source': 'scholar',
+ 'url_scholarbib': 'https://scholar.googleusercontent.com/scholar.bib?q=info:cHlXI2aWPsYJ:scholar.google.com/&output=citation&scisdr=CgXChrnsGAA:AAGBfm0AAAAAXsVZbGgJy2rjpsWCOjGlI-vubh4EZzrR&scisig=AAGBfm0AAAAAXsVZbLZ2i_GNKgygg3YVVNdNd5qWoDKW&scisf=4&ct=citation&cd=0&hl=en'}
+
+{'_filled': False,
+ 'bib': {'abstract': '… behavior and negative social preference scores, '
+                     'conduct problems and prosocial behavior were\n'
+                     'tested … models with stability paths and directional '
+                     'paths from social preference to behavior … Direct\n'
+                     'effects between DRD4 and social preferences and between '
+                     'DRD4 and behavioral … \n',
+         'author': 'JM Buil and HM Koot and T Olthof and KA Nelson…',
+         'eprint': 'https://link.springer.com/article/10.1007/s10964-015-0289-x',
+         'title': 'DRD4 genotype and the developmental link of peer social '
+                  'preference with conduct problems and prosocial behavior '
+                  'across ages 9–12 years',
+         'url': 'https://link.springer.com/article/10.1007/s10964-015-0289-x'},
+ 'citedby': 21,
+ 'id_scholarcitedby': '3037977017116699222',
+ 'source': 'scholar',
+ 'url_scholarbib': 'https://scholar.googleusercontent.com/scholar.bib?q=info:VqoKTQAQKSoJ:scholar.google.com/&output=citation&scisdr=CgXChrnsGAA:AAGBfm0AAAAAXsVZbGgJy2rjpsWCOjGlI-vubh4EZzrR&scisig=AAGBfm0AAAAAXsVZbOnMgYPzBb5GUreg49yM8uwztG3C&scisf=4&ct=citation&cd=1&hl=en'}
+
+prosocial preference correlation environment
+{'_filled': False,
+ 'bib': {'abstract': '… provides a unique opportunity to examine the impact of '
+                     'conditional cooperation on environmental\n'
+                     'morale and preferences … 7 Torgler et al.: Environmental '
+                     'and Pro-Social Norms … We, therefore, use\n'
+                     'the WVS to explore the correlation between '
+                     'justifiability of littering and the ESI … \n',
+         'author': 'B Torgler and BS Frey and C Wilson',
+         'eprint': 'https://doc.rero.ch/record/302775/files/bejeap.2009.9.1.1929.pdf',
+         'title': 'Environmental and pro-social norms: evidence on littering',
+         'url': 'https://www.degruyter.com/view/journals/bejeap/9/1/article-bejeap.2009.9.1.1929.xml.xml'},
+ 'citedby': 38,
+ 'id_scholarcitedby': '14285020433489557872',
+ 'source': 'scholar',
+ 'url_scholarbib': 'https://scholar.googleusercontent.com/scholar.bib?q=info:cHlXI2aWPsYJ:scholar.google.com/&output=citation&scisdr=CgXChrnsEJSuyzNcbGE:AAGBfm0AAAAAXsVZdGEVktHkjIgtbgyTyasDFLMMvPzk&scisig=AAGBfm0AAAAAXsVZdI3hHfXXpSk-bTEKbdsjypphacPj&scisf=4&ct=citation&cd=0&hl=en'}
+
+{'_filled': False,
+ 'bib': {'abstract': '… behavior and negative social preference scores, '
+                     'conduct problems and prosocial behavior were\n'
+                     'tested … models with stability paths and directional '
+                     'paths from social preference to behavior … Direct\n'
+                     'effects between DRD4 and social preferences and between '
+                     'DRD4 and behavioral … \n',
+         'author': 'JM Buil and HM Koot and T Olthof and KA Nelson…',
+         'eprint': 'https://link.springer.com/article/10.1007/s10964-015-0289-x',
+         'title': 'DRD4 genotype and the developmental link of peer social '
+                  'preference with conduct problems and prosocial behavior '
+                  'across ages 9–12 years',
+         'url': 'https://link.springer.com/article/10.1007/s10964-015-0289-x'},
+ 'citedby': 21,
+ 'id_scholarcitedby': '3037977017116699222',
+ 'source': 'scholar',
+ 'url_scholarbib': 'https://scholar.googleusercontent.com/scholar.bib?q=info:VqoKTQAQKSoJ:scholar.google.com/&output=citation&scisdr=CgXChrnsEJSuyzNcbGE:AAGBfm0AAAAAXsVZdGEVktHkjIgtbgyTyasDFLMMvPzk&scisig=AAGBfm0AAAAAXsVZdLi4QXf7U3RpLPTucdxUgZiAroU-&scisf=4&ct=citation&cd=1&hl=en'}
+

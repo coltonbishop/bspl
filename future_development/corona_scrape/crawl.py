@@ -12,7 +12,7 @@ from os import path
 articles = []
 
 # Filter by which we reject or accept articles
-strainer = ['connecticut', "lamont", " ct"]
+strainer = ['connecticut', "lamont", " c.t."]
 
 link_strainer = ['connecticut', 'stamfordadvocate.com', 'courant.com', 'theday.com', 'rep-am.com', 'jounralinquirer.com', 'connpost.com', 
 'nhregister.com', 'myrecordjournal.com', 'newstimes.com', 'thehour.com']

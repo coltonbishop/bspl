@@ -1,0 +1,31 @@
+prosocial
+{'_filled': False,
+ 'bib': {'abstract': 'The development and correlates of pro‐social behavior '
+                     '(ie, voluntary behavior intended to benefit another) and '
+                     'empathy‐related responding are reviewed. Topics included '
+                     'are philosophical roots and relevant psychological '
+                     'theories; the biological bases of pro‐social  …',
+         'author': 'N Eisenberg and RA Fabes…',
+         'title': 'Prosocial development',
+         'url': 'https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470147658.chpsy0311'},
+ 'citedby': 3993,
+ 'id_scholarcitedby': '15268472744310627482',
+ 'source': 'scholar',
+ 'url_scholarbib': 'https://scholar.googleusercontent.com/scholar.bib?q=info:mlxeqxCD5NMJ:scholar.google.com/&output=citation&scisdr=CgXChrnsEJSuyzNfDsw:AAGBfm0AAAAAXsVaFszy4Y4Qq0PvU4ucxjSr_XsPlAKw&scisig=AAGBfm0AAAAAXsVaFqUHmgXE1RyWCTTe1W5yOskaSQfx&scisf=4&ct=citation&cd=0&hl=en'}
+
+{'_filled': False,
+ 'bib': {'abstract': 'The construct of prosocial organizational behavior is '
+                     'defined and 13 specific forms are described. They vary '
+                     'according to whether they are functional or '
+                     'dysfunctional for organizational effectiveness, '
+                     "prescribed or not prescribed as part of one's "
+                     'organizational …',
+         'author': 'AP Brief and SJ Motowidlo',
+         'eprint': 'https://www.researchgate.net/profile/Arthur_Brief/publication/271688809_Prosocial_Organizational_Behaviors/links/58f540fd0f7e9b6f82e8b23e/Prosocial-Organizational-Behaviors.pdf',
+         'title': 'Prosocial organizational behaviors',
+         'url': 'https://journals.aom.org/doi/abs/10.5465/AMR.1986.4283909'},
+ 'citedby': 3193,
+ 'id_scholarcitedby': '10668817881248743684',
+ 'source': 'scholar',
+ 'url_scholarbib': 'https://scholar.googleusercontent.com/scholar.bib?q=info:BMEqUVZBD5QJ:scholar.google.com/&output=citation&scisdr=CgXChrnsEJSuyzNfDsw:AAGBfm0AAAAAXsVaFszy4Y4Qq0PvU4ucxjSr_XsPlAKw&scisig=AAGBfm0AAAAAXsVaFjTMQ8iRd6ew60_wJnIbG_WZssRm&scisf=4&ct=citation&cd=1&hl=en'}
+
