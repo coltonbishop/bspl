@@ -5,7 +5,7 @@ Note: Download data/ folder from the BSPL Google Drive [here](https://drive.goog
 
 # Overview
 
-This repository can be used as a toolkit for the the collection and analysis of Twitter environmental data. It exposes API that allow targeted analysis of regions, time periods, political campaigns, and groups of users or corporations. It supporting semantic and geographical analyses.
+This repository can be used as a toolkit for the the collection and analysis of Twitter environmental data. It exposes an API that allows targeted analysis of regions, time periods, political campaigns, and groups of users or corporations. It supports semantic, geographical, and networking analyses.
 
 
 # Run the Demo
