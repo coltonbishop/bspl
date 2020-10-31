@@ -3,6 +3,11 @@
 Note: Download data/ folder from the BSPL Google Drive [here](https://drive.google.com/drive/u/0/folders/1KT3xeNJ_Ns0IOPil2io-mcsB-Fx0z33z). For access to the drive, email cmbishop@princeton.edu. 
 
 
+# Overview
+
+This repository can be used as a toolkit for the the collection and analysis of Twitter environmental data. It exposes API that allow targeted analysis of regions, time periods, political campaigns, and groups of users or corporations. It supporting semantic and geographical analyses.
+
+
 # Run the Demo
 
 In  the demo folder, see example data and code for working with and analyzing the collected Twitter data. Includes  basic examples such as “How many times does Goldman Sachs use the word "sustainability" in our data?” or “Who used the phrase "climate change" first in our data: JP Morgan or Bank of America?”). 
