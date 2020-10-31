@@ -1,6 +1,6 @@
-# Environmental Data Collection and Analysis for the Andlinger Center for Engery and the Environment and the Behavioral Science for Policy Lab
+# Environmental Data Collection and Analysis for the Andlinger Center for Engery and the Environment
 
-Note: Download data/ folder from the BSPL Google Drive [here](https://drive.google.com/drive/u/0/folders/1KT3xeNJ_Ns0IOPil2io-mcsB-Fx0z33z). For access to the drive, email cmbishop@princeton.edu. 
+Note: If you are a new contributor, download the data and documentation from the BSPL (Behavioral Science for Policy Lab) Google Drive [here](https://drive.google.com/drive/u/0/folders/1KT3xeNJ_Ns0IOPil2io-mcsB-Fx0z33z). For access to the drive, email cmbishop@princeton.edu. 
 
 
 # Overview
